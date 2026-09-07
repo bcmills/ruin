@@ -1,0 +1,16 @@
+[package]
+name = "ruin"
+version = "0.1.0"
+authors = ["Bryan C. Mills <bryan@bcmills.net>"]
+edition = "2024"
+license = "BSD-2-Clause"
+repository = "https://github.com/bcmills/ruin"
+description = "Miscellaneous Rust libraries"
+
+[dependencies]
+
+[lints.rust]
+unused_results = "warn"
+
+[lints.clippy]
+must_use_candidate = "warn"
